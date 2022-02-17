@@ -1,3 +1,8 @@
+/**
+ * @todo make the toolbar a component
+ * @todo handle separate menus
+ * @todo add image to homescreen
+ */
 import * as React from 'react';
 import {
     AppBar,
