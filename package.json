@@ -4,9 +4,6 @@
   "private": true,
   "description": "benmilligan-site",
   "author": "Benjamin",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
