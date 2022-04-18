@@ -131,7 +131,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Main Page <br />
+        Main Page 2 <br />
       </h1>
     </main>
   )

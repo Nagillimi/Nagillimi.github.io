@@ -132,7 +132,7 @@ const IndexPage = () => {
     style: pageStyles
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("title", null, "Home Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
     style: headingStyles
-  }, "Main Page ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null)));
+  }, "Main Page 2 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null)));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
