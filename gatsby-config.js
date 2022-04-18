@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
       title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.benmilligan.tech`
   },
   plugins: ["gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
