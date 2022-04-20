@@ -1300,7 +1300,7 @@ function useScrollRestoration(identifier) {
 /***/ 5418:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-exports.components={"component---src-pages-404-tsx":()=>__webpack_require__.e(/* import() | component---src-pages-404-tsx */ 218).then(__webpack_require__.bind(__webpack_require__, 3638)),"component---src-pages-index-tsx":()=>__webpack_require__.e(/* import() | component---src-pages-index-tsx */ 691).then(__webpack_require__.bind(__webpack_require__, 7508))};
+exports.components={"component---src-pages-404-tsx":()=>__webpack_require__.e(/* import() | component---src-pages-404-tsx */ 218).then(__webpack_require__.bind(__webpack_require__, 3638)),"component---src-pages-index-tsx":()=>__webpack_require__.e(/* import() | component---src-pages-index-tsx */ 691).then(__webpack_require__.bind(__webpack_require__, 5786))};
 
 /***/ }),
 
@@ -3570,7 +3570,7 @@ module.exports = JSON.parse('{"name":"gatsby","description":"Blazing fast modern
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"polyfill":["/polyfill-db109019bff945921aa3.js"],"app":["/app-77ec705d122107ea7d49.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-dc97d10cbb246e1171d5.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-1bf2590b0634c334cd56.js"]}');
+module.exports = JSON.parse('{"polyfill":["/polyfill-db109019bff945921aa3.js"],"app":["/app-8232347806a81cb5b707.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-dc97d10cbb246e1171d5.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-042754ff420d2ebbcb31.js"]}');
 
 /***/ })
 
@@ -3664,6 +3664,11 @@ module.exports = JSON.parse('{"polyfill":["/polyfill-db109019bff945921aa3.js"],"
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/require chunk loading */
