@@ -3,18 +3,33 @@
  * - Color codes: https://htmlcolorcodes.com/
  */
 
+import { createTheme } from "@mui/material";
+import { ThemeProvider } from "@mui/styles";
 import * as React from "react";
 import { ResponsiveAppBar } from "../components/appBar";
+import { GlobalStyle } from "../styles/globalStyle";
 
 /** All pictures, require ts-ignore */
 
+const theme = createTheme({
+    palette: {
+        primary: {
+            main: "#ffffff",
+        },
+        secondary: {
+            main: "#000000",
+        },
+    }
+})
+
 // single page app
-const IndexPage = () => {
+export default function IndexPage() {
     return (
-        <>
-            <ResponsiveAppBar />
-        </>
+        <main>
+            <ThemeProvider theme={theme}>
+                <ResponsiveAppBar />
+                <GlobalStyle />
+            </ThemeProvider>
+        </main>
     )
 }
-
-export default IndexPage
