@@ -26,10 +26,10 @@ const theme = createTheme({
 export default function IndexPage() {
     return (
         <main>
-            <ThemeProvider theme={theme}>
+            {/* <ThemeProvider theme={theme}> */}
                 <ResponsiveAppBar />
                 <GlobalStyle />
-            </ThemeProvider>
+            {/* </ThemeProvider> */}
         </main>
     )
 }

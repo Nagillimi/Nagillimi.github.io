@@ -30,17 +30,15 @@ import banner from '../../static/images/banner2.jpg';
 const BANNER_HEIGHT_PX = 150;
 
 const useStyles = makeStyles(theme => ({
-    primary: {
-        color: "white",
-    },
     appBarImage: {
+        color: "navy",
         backgroundPositionY: "0%",
         backgroundClip: "content-box",
         backgroundImage: `url(${banner})`,
         backgroundRepeat: "no-repeat",
         // backgroundSize: "1000px 200px",
         backgroundPosition: 'center',
-        zoom: "reset",
+        // zoom: "reset",
         height: BANNER_HEIGHT_PX
     },
     grid: {
@@ -48,9 +46,8 @@ const useStyles = makeStyles(theme => ({
         // borderStyle: "dashed",
     },
     tabLabel: {
-        
-        color: "ghostwhite",
-        fontSize: 24,
+        color: "white",
+        fontSize: 26,
         textTransform: "none",
         // fontFamily: "Serif",
         marginBottom: -4,
@@ -89,7 +86,13 @@ export function ResponsiveAppBar() {
                 position="sticky"
                 className={classes.appBarImage}
             >
-                <Tabs value={value} onChange={handleChange} aria-label="nav-tabs">
+                <Tabs
+                    value={value}
+                    onChange={handleChange}
+                    TabIndicatorProps={{style: {
+                        background: 'navy',
+                    }}}
+                >
                     <Grid
                         container
                         direction="row"
@@ -98,7 +101,7 @@ export function ResponsiveAppBar() {
                         height={BANNER_HEIGHT_PX}
                     >
                         <Grid item className={classes.grid}>
-                            <Link to="/Projects" replace className={classes.link}>
+                            <Link to="/projects" replace className={classes.link}>
                                 <Tab
                                     label={
                                         <span className={classes.tabLabel}>
@@ -107,10 +110,11 @@ export function ResponsiveAppBar() {
                                     }
                                     className={classes.tabLabel}
                                 />
+                                {/* Projects */}
                             </Link>
                         </Grid>
                         <Grid item className={classes.grid}>
-                            <Link to="/AboutMe" className={classes.link}>
+                            <Link to="/about" className={classes.link}>
                                 <Tab
                                     label={
                                         <span className={classes.tabLabel}>
@@ -122,7 +126,7 @@ export function ResponsiveAppBar() {
                             </Link>
                         </Grid>
                         <Grid item className={classes.grid}>
-                            <Link to="/Contact" className={classes.link}>
+                            <Link to="/contact" className={classes.link}>
                                 <Tab
                                     label={
                                         <span className={classes.tabLabel}>
